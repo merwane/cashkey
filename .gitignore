@@ -1,0 +1,12 @@
+*.log
+.tox
+.coverage
+*.pyc
+*.orig
+/.cache
+/.pytest_cache
+/.vscode
+/.idea
+/build
+/dist
+/cashkey.egg-info
