@@ -5,7 +5,7 @@ with open("README.md", 'r') as fh:
 
 setuptools.setup(
         name = "cashkey",
-        version = "0.0.1",
+        version = "0.0.2",
         author = "Merwane Draï",
         author_email = "merwanedr@gmail.com",
         description = "A bank on your $5 USB stick",

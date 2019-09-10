@@ -55,7 +55,7 @@ class Wallet:
 
     # perform a transaction
     def transaction(self, recipient_addr, amount, currency):
-        cashaddr = re.match('^((bitcoincash:)?(q|p)[a-z0-9]{41})', recipient_addr)
+        cashaddr = re.match('^((bitcoincash|bchreg|bchtest):)?(q|p)[a-z0-9]{41}$', recipient_addr)
         legacyaddr = re.match('^([13][a-km-zA-HJ-NP-Z1-9]{25,34})', recipient_addr)
         caplegacyaddr = re.match('^((BITCOINCASH:)?(Q|P)[A-Z0-9]{41})$', recipient_addr)
         if not any([cashaddr, legacyaddr, caplegacyaddr]):
