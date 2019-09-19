@@ -5,7 +5,7 @@ with open("README.md", 'r') as fh:
 
 setuptools.setup(
         name = "cashkey",
-        version = "0.0.2",
+        version = "0.0.3",
         author = "Merwane Draï",
         author_email = "merwanedr@gmail.com",
         description = "A bank on your $5 USB stick",
@@ -35,7 +35,7 @@ setuptools.setup(
             "cryptography",
             "colorama",
             "halo",
-            "qrcode"
+            "qrcode[pil]"
             ],
         entry_points={
             'console_scripts': [

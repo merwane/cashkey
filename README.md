@@ -46,7 +46,7 @@ The long-term goal is to establish a universal protocol or convention to create 
 
 Based on community needs and demands, I will keep improving the project and adding new functionalities. You can help me do that by **contributing** to the project or by **donating** a little something to encourage me.
 
-**Donate BCH:** bitcoincash:qz5mle4x2vjelax2c0wxhuprq5ha63w4xsj0r38g8s
+**Donate BCH:** bitcoincash:qrxjktfjdse3ll0ttrll20gykuhqjw764queg3w2tj
 
 **Donate Love:** Just [tweet](https://twitter.com/merwanedr) me something cool :)
 
